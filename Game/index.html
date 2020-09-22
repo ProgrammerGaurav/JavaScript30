@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        body {
+            background-color: #000000;
+            background-image: url(../img/background.webp);
+            background-attachment: fixed;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            cursor: none;
+        }
+
+        .cursor {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .point {
+            position: absolute;
+            font-size: 5rem;
+            z-index: 0;
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.5;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 255px;
+            transition: all 0.5s;
+            z-index: 1;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .back {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: transparent;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cursor">
+        <img src="crosshair.png" alt="" width="50">
+    </div>
+    <div class="point">0</div>
+    <div class="box" onclick="del()">
+        <img src="santra.png" alt="">
+    </div>
+    <div class="back" onclick="error()"></div>
+    <audio src="shoot.wav" class="shoot"></audio>
+    <audio src="damage.wav" class="damage"></audio>
+    <script>
+        const box = document.querySelector('.box');
+        const shoot = document.querySelector('.shoot');
+        const damage = document.querySelector('.damage')
+        var point = document.querySelector('.point');
+        const cursor = document.querySelector('.cursor')
+        box.ondragstart = function () {
+            return false;
+        };
+        box.onselectstart = function () {
+            return false;
+        };
+        document.addEventListener('mousemove', (e) => {
+            cursor.setAttribute("style", "top: " + (e.pageY - 25) + "px; left: " + (e.pageX - 25) + "px;")
+        })
+
+        function respawn() {
+            box.style.display = 'none';
+            const width = (Math.floor(Math.random() * (window.innerWidth - 100)));
+            const height = (Math.floor(Math.random() * (window.innerHeight - 100)));
+            box.style.top = `${height}px`;
+            box.style.left = `${width}px`;
+            box.style.display = 'block';
+            box.style.opacity = 1;
+        }
+
+        function del() {
+            shoot.currentTime = 0;
+            shoot.play()
+            box.style.opacity = 0;
+            setTimeout(respawn, 500);
+            point.innerHTML = parseInt(point.innerHTML) + 1;
+        }
+
+        function error() {
+            damage.currentTime = 0;
+            damage.play()
+        }
+    </script>
+</body>
+
+</html>
