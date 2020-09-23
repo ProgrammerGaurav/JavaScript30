@@ -15,34 +15,66 @@
             background-repeat: no-repeat;
             background-size: cover;
             font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-        div {
-            text-align: center;
+        .background {
+            width: 100%;
         }
 
         a {
             text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .projects {
+            padding: 100px;
         }
 
         .project {
-            border: 1px solid azure;
-            padding: 10px 200px;
+            border: 2px solid azure;
+            padding: 0px 10px;
+            margin: 10px;
             color: azure;
-            display: inline;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .project:hover,
+        .project:hover a {
+            background-color: #fff;
+            color: #000;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <a href="">
-            <div class="projects">
+    <img class="background" src="https://tfrommen.de/wp-content/uploads/javascript30-hero-1920x720.jpg" alt="">
+    <div class="projects">
+        <div class="project">
+            <a href="/DrumKit/">
                 <h3>
                     Day 1 - DrumKit
                 </h3>
-            </div>
-        </a>
+            </a>
+        </div>
+        <div class="project">
+            <a href="/Clock/">
+                <h3>
+                    Day 2 - Clock
+                </h3>
+            </a>
+        </div>
+        <div class="project">
+            <a href="/Variables/">
+                <h3>
+                    Day 2 - Variables
+                </h3>
+            </a>
+        </div>
     </div>
 </body>
 
