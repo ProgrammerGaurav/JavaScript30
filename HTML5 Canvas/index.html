@@ -22,7 +22,7 @@
         ctx.strokeStyle = '#BADA55';
         ctx.lineJoin = 'round';
         ctx.lineCap = 'round';
-        ctx.lineWidth = 10;
+        ctx.lineWidth = 20;
 
         let isDrawing = false;
         let lastX = 0;
@@ -43,7 +43,7 @@
             if (hue >= 360) {
                 hue = 10;
             }
-            if (ctx.lineWidth >= 50 || ctx.lineWidth <= 1) {
+            if (ctx.lineWidth >= 30 || ctx.lineWidth <= 10) {
                 direction = !direction;
             }
             if (direction) {
