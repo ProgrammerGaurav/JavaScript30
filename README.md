@@ -7,3 +7,4 @@
 ##### 6) [Ajax Type Ahead](https://programmergaurav.me/JavaScript30/Ajax%20Type%20Ahead/)
 ##### 7) [Array Cardio Day 2](https://programmergaurav.me/JavaScript30/Array%20Cardio%20Day%202/)
 ##### 8) [HtML Canvas](https://programmergaurav.me/JavaScript30/HTML5%20Canvas/)
+##### 9) [Dev Tools]((https://programmergaurav.me/JavaScript30/Dev%20Tools/)
