@@ -7,5 +7,5 @@
 ##### 6) [Ajax Type Ahead](https://programmergaurav.github.io/JavaScript30/Ajax%20Type%20Ahead/)
 ##### 7) [Array Cardio Day 2](https://programmergaurav.github.io/JavaScript30/Array%20Cardio%20Day%202/)
 ##### 8) [HtML Canvas](https://programmergaurav.github.io/JavaScript30/HTML5%20Canvas/)
-##### 9) [Dev Tools]((https://programmergaurav.github.io/JavaScript30/Dev%20Tools/)
+##### 9) [Dev Tools](https://programmergaurav.github.io/JavaScript30/Dev%20Tools/)
 ##### 10) [Hold Shift To Check Multiple Checkboxes](https://programmergaurav.github.io/JavaScript30/Hold%20Shift%20To%20Check%20Multiple%20Checkboxes/)
