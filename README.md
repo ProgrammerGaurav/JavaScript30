@@ -9,3 +9,4 @@
 ##### 8) [HtML Canvas](https://programmergaurav.github.io/JavaScript30/HTML5%20Canvas/)
 ##### 9) [Dev Tools](https://programmergaurav.github.io/JavaScript30/Dev%20Tools/)
 ##### 10) [Hold Shift To Check Multiple Checkboxes](https://programmergaurav.github.io/JavaScript30/Hold%20Shift%20To%20Check%20Multiple%20Checkboxes/)
+##### 11) [Custom Video Player](https://programmergaurav.github.io/JavaScript30/Custom%20Video%20Player/)
