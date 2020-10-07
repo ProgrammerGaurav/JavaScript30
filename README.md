@@ -12,4 +12,4 @@
 ##### 11) [Custom Video Player](https://programmergaurav.github.io/JavaScript30/Custom%20Video%20Player/)
 ##### 12) [Key Sequence Detection](https://programmergaurav.github.io/JavaScript30/Key%20Sequence%20Detection/)
 ##### 13) [Slide in on Scroll](https://programmergaurav.github.io/JavaScript30/Slide%20in%20on%20Scroll/)
-##### 14) [JavaScript References VS Copying]
+##### 14) [JavaScript References VS Copying](https://programmergaurav.github.io/JavaScript30/JavaScript%20References%20VS%20Copying/)
