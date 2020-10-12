@@ -15,4 +15,5 @@
 ##### 14) [JavaScript References VS Copying](https://programmergaurav.github.io/JavaScript30/JavaScript%20References%20VS%20Copying/)
 ##### 15) [LocalStorage](https://programmergaurav.github.io/JavaScript30/LocalStorage/)
 ##### 16) [Mouse Move Shadow](https://programmergaurav.github.io/JavaScript30/Mouse%20Move%20Shadow/)
-#### 17) [Sort Without Articles](https://programmergaurav.github.io/JavaScript30/Sort%20Without%20Articles/)
+##### 17) [Sort Without Articles](https://programmergaurav.github.io/JavaScript30/Sort%20Without%20Articles/)
+##### 18) [Tally String Times with Reduce](https://programmergaurav.github.io/JavaScript30/Tally%20String%20Times%20with%20Reduce/)
