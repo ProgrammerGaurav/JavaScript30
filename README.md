@@ -19,3 +19,4 @@
 ##### 18) [Tally String Times with Reduce](https://programmergaurav.github.io/JavaScript30/Tally%20String%20Times%20with%20Reduce/)
 ##### 19) [Webcam Fun](https://programmergaurav.github.io/JavaScript30/Webcam%20Fun/)
 ##### 20) [Speech Detection](https://programmergaurav.github.io/JavaScript30/Speech%20Detection/)
+##### 21) [Geolocation](https://programmergaurav.github.io/JavaScript30/Geolocation/)
