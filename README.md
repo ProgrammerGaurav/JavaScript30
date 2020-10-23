@@ -22,3 +22,4 @@
 ##### 21) [Geolocation](https://programmergaurav.github.io/JavaScript30/Geolocation/)
 ##### 22) [Geolocation](https://programmergaurav.github.io/JavaScript30/Follow%20Along%20Link/)
 ##### 23) [Speech Synthesis](https://programmergaurav.github.io/JavaScript30/Speech%20Synthesis/)
+##### 24) [Sticky Nav](https://programmergaurav.github.io/JavaScript30/Sticky%20Nav/)
