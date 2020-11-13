@@ -25,3 +25,4 @@
 ##### 24) [Sticky Nav](https://programmergaurav.github.io/JavaScript30/Sticky%20Nav/)
 ##### 25) [Event Capture, Propagation, Bubbling and Once](https://programmergaurav.github.io/JavaScript30/Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)
 ##### 26) [Stripe Follow Along Nav](https://programmergaurav.github.io/JavaScript30/Stripe%20Follow%20Along%20Nav/)
+##### 27) [Click and Drag](https://programmergaurav.github.io/JavaScript30//)
