@@ -26,3 +26,4 @@
 ##### 25) [Event Capture, Propagation, Bubbling and Once](https://programmergaurav.github.io/JavaScript30/Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)
 ##### 26) [Stripe Follow Along Nav](https://programmergaurav.github.io/JavaScript30/Stripe%20Follow%20Along%20Nav/)
 ##### 27) [Click and Drag](https://programmergaurav.github.io/JavaScript30/Click%20and%20Drag/)
+##### 28) [Video Speed Controller](https://programmergaurav.github.io/JavaScript30/Video%20Speed%20Controller/)
