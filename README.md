@@ -28,3 +28,4 @@
 ##### 27) [Click and Drag](https://programmergaurav.github.io/JavaScript30/Click%20and%20Drag/)
 ##### 28) [Video Speed Controller](https://programmergaurav.github.io/JavaScript30/Video%20Speed%20Controller/)
 ##### 29) [Countdown Timer](https://programmergaurav.github.io/JavaScript30/Countdown%20Timer/)
+##### 30) [Whack A Mole](https://programmergaurav.github.io/JavaScript30/Whack%20A%20Mole/)
