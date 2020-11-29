@@ -7,11 +7,16 @@
     <title>30 Days Of JavaScript</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             background-color: #000000;
             font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
+            text-align: center;
         }
 
         .background {
@@ -19,38 +24,30 @@
         }
 
         a {
+            color: inherit;
             text-decoration: none;
-            color: #fff;
-            display: inline-block;
-            transition: all 0.3s;
-        }
+            font-size: 1.17em;
 
-        .projects {
-            padding: 100px;
         }
 
         .project {
-            border: 2px solid azure;
-            padding: 0px 10px;
-            margin: 10px;
-            color: azure;
+            border: 2px solid #fff;
             display: inline-block;
-            transition: all 0.3s;
+            color: #fff;
+            width: calc(49% - 20px);
+            padding: 20px 0;
+            margin: 10px;
+            transition: 0.3s all;
         }
 
-        .project:hover,
-        .project:hover a {
+        .project:hover {
             background-color: #fff;
             color: #000;
         }
 
         @media only screen and (max-width: 997px) {
-            .projects {
-                padding: 50px;
-            }
-
             .project {
-                width: 80%;
+                width: calc(90% - 20px);
             }
         }
     </style>
@@ -58,218 +55,216 @@
 
 <body>
     <img class="background" src="https://tfrommen.de/wp-content/uploads/javascript30-hero-1920x720.jpg" alt="">
-    <div class="projects">
-        <div class="project">
-            <a href="DrumKit/">
-                <h3>
-                    Day 1 - DrumKit
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Clock/">
-                <h3>
-                    Day 2 - Clock
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Variables/">
-                <h3>
-                    Day 3 - Variables
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Array%20Cardio%20Day%201/">
-                <h3>
-                    Day 4 - Array Cardio Day 1
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Flex%20Panel%20Gallery/">
-                <h3>
-                    Day 5 - Flex Pannel Gallery
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="/Ajax%20Type%20Ahead/">
-                <h3>
-                    Day 6 - Ajax Type Ahead
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Array%20Cardio%20Day%202/">
-                <h3>
-                    Day 7 - Array Cardio Day 2
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="HTML5%20Canvas/">
-                <h3>
-                    Day 8 - HtML Canvas
-                </h3>
-            </a>
-        </div>
+    <div class="project">
+        <a href="DrumKit/">
+            <h3>
+                Day 1 - DrumKit
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Clock/">
+            <h3>
+                Day 2 - Clock
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Variables/">
+            <h3>
+                Day 3 - Variables
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Array%20Cardio%20Day%201/">
+            <h3>
+                Day 4 - Array Cardio Day 1
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Flex%20Panel%20Gallery/">
+            <h3>
+                Day 5 - Flex Pannel Gallery
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="/Ajax%20Type%20Ahead/">
+            <h3>
+                Day 6 - Ajax Type Ahead
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Array%20Cardio%20Day%202/">
+            <h3>
+                Day 7 - Array Cardio Day 2
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="HTML5%20Canvas/">
+            <h3>
+                Day 8 - HtML Canvas
+            </h3>
+        </a>
+    </div>
 
-        <div class="project">
-            <a href="Dev%20Tools/">
-                <h3>
-                    Day 9 - Dev Tools
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Hold%20Shift%20To%20Check%20Multiple%20Checkboxes/">
-                <h3>
-                    Day 10 - Hold Shift To Check Multiple Checkboxes
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Custom%20Video%20Player/">
-                <h3>
-                    Day 11 - Custom Video Player
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Key%20Sequence%20Detection/">
-                <h3>
-                    Day 12 - Key Sequence Detection
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Slide%20in%20on%20Scroll/">
-                <h3>
-                    Day 13 - Slide in on Scroll
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="JavaScript%20References%20VS%20Copying/">
-                <h3>
-                    Day 14 - JavaScript References VS Copying
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="LocalStorage/">
-                <h3>
-                    Day 15 - LocalStorage
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Mouse%20Move%20Shadow/">
-                <h3>
-                    Day 16 - Mouse Move Shadow
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Sort%20Without%20Articles/">
-                <h3>
-                    Day 17 - Sort Without Articles
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Tally%20String%20Times%20with%20Reduce/">
-                <h3>
-                    Day 18 - Tally String Times with Reduce
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Webcam%20Fun/">
-                <h3>
-                    Day 19 - Webcam Fun
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Speech%20Detection/">
-                <h3>
-                    Day 20 - Speech Detection
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Geolocation/">
-                <h3>
-                    Day 21 - Geolocation
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Follow%20Along%20Link/">
-                <h3>
-                    Day 22 - Follow Along Link
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Speech%20Synthesis/">
-                <h3>
-                    Day 23 - Speech Synthesis
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Sticky%20Nav/">
-                <h3>
-                    Day 24 - Sticky Nav
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/">
-                <h3>
-                    Day 25 - Event Capture, Propagation, Bubbling and Once
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Stripe%20Follow%20Along%20Nav/">
-                <h3>
-                    Day 26 - Stripe Follow Along Nav
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Click%20and%20Drag/">
-                <h3>
-                    Day 27 - Click and Drag
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Video%20Speed%20Controller/">
-                <h3>
-                    Day 28 - Video Speed Controller
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Countdown%20Timer/">
-                <h3>
-                    Day 29 - Countdown Timer
-                </h3>
-            </a>
-        </div>
-        <div class="project">
-            <a href="Whack%20A%20Mole/">
-                <h3>
-                    Day 30 - Whack A Mole
-                </h3>
-            </a>
-        </div>
+    <div class="project">
+        <a href="Dev%20Tools/">
+            <h3>
+                Day 9 - Dev Tools
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Hold%20Shift%20To%20Check%20Multiple%20Checkboxes/">
+            <h3>
+                Day 10 - Hold Shift To Check Multiple Checkboxes
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Custom%20Video%20Player/">
+            <h3>
+                Day 11 - Custom Video Player
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Key%20Sequence%20Detection/">
+            <h3>
+                Day 12 - Key Sequence Detection
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Slide%20in%20on%20Scroll/">
+            <h3>
+                Day 13 - Slide in on Scroll
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="JavaScript%20References%20VS%20Copying/">
+            <h3>
+                Day 14 - JavaScript References VS Copying
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="LocalStorage/">
+            <h3>
+                Day 15 - LocalStorage
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Mouse%20Move%20Shadow/">
+            <h3>
+                Day 16 - Mouse Move Shadow
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Sort%20Without%20Articles/">
+            <h3>
+                Day 17 - Sort Without Articles
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Tally%20String%20Times%20with%20Reduce/">
+            <h3>
+                Day 18 - Tally String Times with Reduce
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Webcam%20Fun/">
+            <h3>
+                Day 19 - Webcam Fun
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Speech%20Detection/">
+            <h3>
+                Day 20 - Speech Detection
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Geolocation/">
+            <h3>
+                Day 21 - Geolocation
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Follow%20Along%20Link/">
+            <h3>
+                Day 22 - Follow Along Link
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Speech%20Synthesis/">
+            <h3>
+                Day 23 - Speech Synthesis
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Sticky%20Nav/">
+            <h3>
+                Day 24 - Sticky Nav
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/">
+            <h3>
+                Day 25 - Event Capture, Propagation, Bubbling and Once
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Stripe%20Follow%20Along%20Nav/">
+            <h3>
+                Day 26 - Stripe Follow Along Nav
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Click%20and%20Drag/">
+            <h3>
+                Day 27 - Click and Drag
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Video%20Speed%20Controller/">
+            <h3>
+                Day 28 - Video Speed Controller
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Countdown%20Timer/">
+            <h3>
+                Day 29 - Countdown Timer
+            </h3>
+        </a>
+    </div>
+    <div class="project">
+        <a href="Whack%20A%20Mole/">
+            <h3>
+                Day 30 - Whack A Mole
+            </h3>
+        </a>
     </div>
 </body>
 
